@@ -10,7 +10,7 @@ El orden de ejecución será el siguiente:
 
 - En primer lugar se ejecutará el archivo scrap.py, el cual utilizará técnicas de webscrapping para analizar el contenido del html seleccionado (en este caso una web de predicciones sobre los resultados de los partidos de la NBA). El análisis consistirá en extraer de la página web los próximos encuentros entre equipos de la NBA y la predicción de sus resultados, guardando todo ello finalmente en un archivo .csv de nombre 'prediccion.csv'.
 
-- Una vez se haya creado el archivo 'prediccion.csv', procederemos a ejecutar el último archivo, API_NBA.ipynb, cuyo resultado final será el pdf del que hablábamos al principio, incluyendo tanto estadísticas generales del equipo durante la temporada 22-23 como los datos obtenidos mediante la elaboración del análisis de webscrapping.
+- Una vez se haya creado el archivo 'prediccion.csv', procederemos a ejecutar el último archivo, API_NBA.ipynb, cuyo resultado final será el pdf del que hablábamos al principio, incluyendo tanto estadísticas generales del equipo durante la temporada 22-23 como los datos obtenidos mediante la elaboración del análisis de webscrapping. Para ejecutar este archivo incluiremos el id propio de cada usuario a la hora de acceder a la API.
 
 Funcionamiento en profundidad:
 
