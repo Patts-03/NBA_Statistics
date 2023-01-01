@@ -1,0 +1,7 @@
+fpdf
+dataframe_image
+requests
+re
+seaborn
+pandas
+bs4
