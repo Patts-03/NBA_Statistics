@@ -73,7 +73,7 @@ def extract(url):
   texto = file.read()
   file.close()
   
-  credenciales = (re.findall('\d+$',texto))[0]
+  credenciales =  re.sub('Credenciales: ','',texto)
     
   
   payload={}
