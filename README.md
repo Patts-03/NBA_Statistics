@@ -6,7 +6,7 @@ El equipo elegido ha sido el 'Boston Celtics', cuyo logo también incluimos para
 
 El orden de ejecución será el siguiente:
 
-- Antes de comenzar a ejecutar los programas , el usuario deberá encargarse de instalar las librerías especificadas en el requirements.txt para garantizar el buen funcionamiento del proyecto.
+- Antes de comenzar a ejecutar los programas , el usuario deberá encargarse de instalar las librerías especificadas en el requirements.txt para garantizar el buen funcionamiento del proyecto. Además, se deberá crear una cuenta propia en la API facilitada en el archivo API_NBA.ipynb (https://v2.nba.api-sports.io). Una vez se haga se introducirá el ID propio de las credenciales en la linea de XXX... del archivo config.txt.
 
 - En primer lugar se ejecutará el archivo scrap.py, el cual utilizará técnicas de webscrapping para analizar el contenido del html seleccionado (en este caso una web de predicciones sobre los resultados de los partidos de la NBA). El análisis consistirá en extraer de la página web los próximos encuentros entre equipos de la NBA y la predicción de sus resultados, guardando todo ello finalmente en un archivo .csv de nombre 'prediccion.csv'.
 
