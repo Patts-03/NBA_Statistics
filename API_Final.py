@@ -263,7 +263,8 @@ def load(df_ini):
     # Elaboramos el texto a introducir en el pdf
 
     lon = len(filas_id)
-
+    image = False
+    
     if lon == 0:
         texto6 = 'Lamentablemente, no se han encontrado próximos partidos para los Boston Celtics, por lo que no se ha podido elaborar la predicción'
     elif lon >= 1:
